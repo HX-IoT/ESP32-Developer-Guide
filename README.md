@@ -1,9 +1,16 @@
 # ESP32-Developer-Guide
 
-### WiFi部分（完成）基于ESP-IDF
+### 基础部分（完成）
 
-- #### [教程](https://github.com/HX-IoT/ESP32-Developer-Guide/tree/master/ESP32%E5%BC%80%E5%8F%91%E6%8C%87%E5%8D%97-PDF) 
-- #### [源码](https://github.com/HX-IoT/ESP32-Developer-Guide/tree/master/source_code)
+- #### [教程](https://github.com/HX-IoT/ESP32-Developer-Guide/tree/master/%E7%BA%A2%E6%97%ADESP32%E5%BC%80%E5%8F%91%E6%8C%87%E5%8D%97-PDF) 
+
+- #### [源码](https://github.com/HX-IoT/ESP32-Developer-Guide/tree/master/basic_source_code)
+
+### WiFi部分（完成）
+
+- #### [教程](https://github.com/HX-IoT/ESP32-Developer-Guide/tree/master/%E7%BA%A2%E6%97%ADESP32%E5%BC%80%E5%8F%91%E6%8C%87%E5%8D%97-PDF) 
+
+- #### [源码](https://github.com/HX-IoT/ESP32-Developer-Guide/tree/master/wifi_source_code)
 
 ### 蓝牙部分
 
