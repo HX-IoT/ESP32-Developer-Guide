@@ -1,0 +1,31 @@
+menu "esp32-i2c-lcd1602-example Configuration"
+
+config I2C_MASTER_SCL
+    int "I2C Master SCL GPIO number"
+	range 0 34
+	default 19
+	help
+		GPIO number (IOxx) for I2C SCL.
+
+		Some GPIOs are used for other purposes (flash connections, etc.) and cannot be used.
+
+		GPIOs 35-39 are input-only so cannot be used to drive the One Wire Bus.
+
+config I2C_MASTER_SDA
+    int "I2C Master SDA GPIO number"
+    range 0 34
+    default 18
+    help
+        GPIO number (IOxx) for I2C SDA.
+
+        Some GPIOs are used for other purposes (flash connections, etc.) and cannot be used.
+
+        GPIOs 35-39 are input-only so cannot be used to drive the One Wire Bus.
+
+config LCD1602_I2C_ADDRESS
+    hex "I2C Address for LCD1602 device"
+    default 0x27
+    help
+        I2C address for HD44780-compatible LCD1602 device.
+
+endmenu
