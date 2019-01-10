@@ -1,0 +1,17 @@
+{
+    "write_flash_args" : [ "--flash_mode", "dio",
+                           "--flash_size", "detect",
+                           "--flash_freq", "40m" ],
+    "flash_files" : {
+        "0x1000" : "bootloader/bootloader.bin",
+        "" : "partition_table/partition-table.bin",
+        "" : "bootloader.bin",
+        "" : ""
+    },
+    "bootloader" :      { "offset" : "0x1000",
+                          "file" : "bootloader/bootloader.bin" },
+    "app" :             { "offset" : "",
+                          "file" : "bootloader.bin" },
+    "partition_table" : { "offset" : "",
+                          "file" : "partition_table/partition-table.bin" }
+}

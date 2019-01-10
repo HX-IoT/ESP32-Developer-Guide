@@ -1,0 +1,43 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceRoot}",
+                "D:\\Project\\ESP32\\esp\\esp-idf\\components",
+                "D:/Project/ESP32/esp/esp-idf/components/newlib/include",
+                "D:/Project/ESP32/esp/esp-idf/components/esp32/include",
+                "${workspaceFolder}/components/user_driver/include",
+                "D:/Project/Espressif/ESP-IDF Tools/toolchain/lib/gcc/xtensa-esp32-elf/5.2.0/include",
+                "D:/Project/ESP32/esp/esp-idf/components/driver/include",
+                "D:/Project/ESP32/esp/esp-idf/components/soc/esp32/include",
+                "D:/Project/ESP32/esp/esp-idf/components/freertos/include",
+                "${workspaceFolder}/build/config",
+                "D:/Project/ESP32/esp/esp-idf/components/log/include",
+                "D:/Project/ESP32/esp/esp-idf/components/heap/include",
+                "D:/Project/ESP32/esp/esp-idf/components/soc/include",
+                "D:/Project/ESP32/esp/esp-idf/components/spi_flash/include",
+                "D:/Project/ESP32/esp/esp-idf/components/tcpip_adapter/include",
+                "D:/Project/ESP32/esp/esp-idf/components/lwip/include/lwip",
+                "D:/Project/ESP32/esp/esp-idf/components/lwip/include/lwip/port",
+                "D:/Project/ESP32/esp/esp-idf/components/vfs/include",
+                "D:/Project/ESP32/esp/esp-idf/components/nvs_flash/include",
+                "D:/Project/ESP32/esp/esp-idf/components/newlib/platform_include",
+                "D:/Project/ESP32/esp/esp-idf/components/mbedtls/mbedtls/include",
+                "D:/Project/ESP32/esp/esp-idf/components/json/cJSON",
+                "D:/Project/ESP32/esp/esp-idf/components/wpa_supplicant/port/include"
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": "",
+                "path": [
+                    "${workspaceRoot}",
+                    "D:\\Project\\ESP32\\esp\\esp-idf\\components",
+                    "D:\\Project\\Espressif\\ESP-IDF Tools\\toolchain"
+                ]
+            },
+            "intelliSenseMode": "clang-x64"
+        }
+    ],
+    "version": 4
+}

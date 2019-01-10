@@ -2,10 +2,10 @@
 
 - hx-https-mbedtls：HTTPS获取天气
 - hx-ota：ESP32的空中升级（OTA）
-
 - hx-sc-http：HTTP获取城市温度
 - hx-sc：SmartConfig一键配置
 - hx-tcp： ESP32的TCP连接
+- hx-tmall：天猫精灵控制ESP32
 - hx-udp：ESP32的UDP广播
 - hx-wifi： 新建一个WIFI热点
 - hx-ws：ESP32的WebSocket服务器

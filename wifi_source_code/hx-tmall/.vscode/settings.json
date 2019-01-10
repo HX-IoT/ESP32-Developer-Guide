@@ -1,0 +1,14 @@
+{
+    "files.associations": {
+        "platform.h": "c",
+        "os.h": "c",
+        "esp_spi_flash.h": "c",
+        "nvs_flash.h": "c",
+        "stdio.h": "c",
+        "user_tmall_genie.h": "c",
+        "cjson.h": "c",
+        "ssl.h": "c",
+        "ctr_drbg.h": "c",
+        "md5.h": "c"
+    }
+}

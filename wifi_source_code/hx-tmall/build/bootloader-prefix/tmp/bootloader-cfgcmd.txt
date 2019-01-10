@@ -1,0 +1,1 @@
+cmd='C:/Program Files/CMake/bin/cmake.exe;-DSDKCONFIG=C:/Users/Administrator/Desktop/app/sdkconfig;-DIDF_PATH=D:/Project/ESP32/esp/esp-idf;-GNinja;<SOURCE_DIR><SOURCE_SUBDIR>'

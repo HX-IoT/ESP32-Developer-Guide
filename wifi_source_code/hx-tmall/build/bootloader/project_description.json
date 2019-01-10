@@ -1,0 +1,18 @@
+{
+    "project_name":       "bootloader",
+    "project_path":       "D:/Project/ESP32/esp/esp-idf/components/bootloader/subproject",
+    "build_dir":          "C:/Users/Administrator/Desktop/app/build/bootloader",
+    "config_file":        "C:/Users/Administrator/Desktop/app/sdkconfig",
+    "config_defaults":    "C:/Users/Administrator/Desktop/app/sdkconfig.defaults",
+    "app_elf":            "bootloader.elf",
+    "app_bin":            "bootloader.bin",
+    "git_revision":       "v3.0-dev-2702-ge7faa1d8",
+    "phy_data_partition": "",
+    "monitor_baud" : "115200",
+    "config_environment" : {
+        "COMPONENT_KCONFIGS" : " D:/Project/ESP32/esp/esp-idf/components/esp32/Kconfig D:/Project/ESP32/esp/esp-idf/components/spi_flash/Kconfig D:/Project/ESP32/esp/esp-idf/components/log/Kconfig",
+        "COMPONENT_KCONFIGS_PROJBUILD" : " D:/Project/ESP32/esp/esp-idf/components/bootloader/Kconfig.projbuild D:/Project/ESP32/esp/esp-idf/components/esptool_py/Kconfig.projbuild"
+    },
+    "build_components" : [ "bootloader", "esptool_py", "esp32", "soc", "bootloader_support", "spi_flash", "micro-ecc", "log" ],
+    "build_component_paths" : [ "D:/Project/ESP32/esp/esp-idf/components/bootloader", "D:/Project/ESP32/esp/esp-idf/components/esptool_py", "D:/Project/ESP32/esp/esp-idf/components/esp32", "D:/Project/ESP32/esp/esp-idf/components/soc", "D:/Project/ESP32/esp/esp-idf/components/bootloader_support", "D:/Project/ESP32/esp/esp-idf/components/spi_flash", "D:/Project/ESP32/esp/esp-idf/components/micro-ecc", "D:/Project/ESP32/esp/esp-idf/components/log" ]
+}

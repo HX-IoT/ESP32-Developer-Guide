@@ -1,0 +1,30 @@
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: D:/Project/Espressif/ESP-IDF Tools/toolchain/bin/xtensa-esp32-elf-gcc.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+d:/project/espressif/esp-idf tools/toolchain/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/bin/ld.exe: cannot find crt1-sim.o: No such file or directory
+d:/project/espressif/esp-idf tools/toolchain/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/bin/ld.exe: cannot find _vectors.o: No such file or directory
+d:/project/espressif/esp-idf tools/toolchain/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/bin/ld.exe: cannot find -lsim
+d:/project/espressif/esp-idf tools/toolchain/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/bin/ld.exe: cannot find -lhandlers-sim
+d:/project/espressif/esp-idf tools/toolchain/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/bin/ld.exe: cannot find -lhal
+collect2.exe: error: ld returned 1 exit status
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: D:/Project/Espressif/ESP-IDF Tools/toolchain/bin/xtensa-esp32-elf-g++.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+d:/project/espressif/esp-idf tools/toolchain/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/bin/ld.exe: cannot find crt1-sim.o: No such file or directory
+d:/project/espressif/esp-idf tools/toolchain/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/bin/ld.exe: cannot find _vectors.o: No such file or directory
+d:/project/espressif/esp-idf tools/toolchain/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/bin/ld.exe: cannot find -lsim
+d:/project/espressif/esp-idf tools/toolchain/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/bin/ld.exe: cannot find -lhandlers-sim
+d:/project/espressif/esp-idf tools/toolchain/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/bin/ld.exe: cannot find -lhal
+collect2.exe: error: ld returned 1 exit status
+
+

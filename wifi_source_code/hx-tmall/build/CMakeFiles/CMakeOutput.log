@@ -1,0 +1,499 @@
+The target system is: Generic -  - 
+The host system is: Windows - 10.0.17134 - AMD64
+Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
+xtensa-esp32-elf-gcc.exe (crosstool-NG crosstool-ng-1.22.0-80-g6c4433a5) 5.2.0
+Copyright (C) 2015 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: D:/Project/Espressif/ESP-IDF Tools/toolchain/bin/xtensa-esp32-elf-gcc.exe 
+Build flags: 
+Id flags: -c 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+
+The C compiler identification is GNU, found in "C:/Users/Administrator/Desktop/app/build/CMakeFiles/3.11.1/CompilerIdC/CMakeCCompilerId.o"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: D:/Project/Espressif/ESP-IDF Tools/toolchain/bin/xtensa-esp32-elf-g++.exe 
+Build flags: 
+Id flags: -c 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+
+The CXX compiler identification is GNU, found in "C:/Users/Administrator/Desktop/app/build/CMakeFiles/3.11.1/CompilerIdCXX/CMakeCXXCompilerId.o"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: C:/Users/Administrator/Desktop/app/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"D:/Project/ESPRES~1/ESP-ID~1/ninja.exe" "cmTC_2feeb"
+[1/2] Building C object CMakeFiles/cmTC_2feeb.dir/testCCompiler.c.obj
+[2/2] Linking C executable cmTC_2feeb
+d:/project/espres~1/esp-id~1/toolch~1/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00400054
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/Users/Administrator/Desktop/app/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"D:/Project/ESPRES~1/ESP-ID~1/ninja.exe" "cmTC_27387"
+[1/2] Building C object CMakeFiles/cmTC_27387.dir/CMakeCCompilerABI.c.obj
+[2/2] Linking C executable cmTC_27387
+Using built-in specs.
+COLLECT_GCC=D:\Project\ESPRES~1\ESP-ID~1\TOOLCH~1\bin\XT8994~1.EXE
+COLLECT_LTO_WRAPPER=d:/project/espres~1/esp-id~1/toolch~1/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/lto-wrapper.exe
+Target: xtensa-esp32-elf
+Configured with: /builds/idf/crosstool-NG/.build/src/gcc-5.2.0/configure --build=x86_64-build_pc-linux-gnu --host=i686-host_pc-mingw32 --target=xtensa-esp32-elf --prefix=/builds/idf/crosstool-NG/builds/xtensa-esp32-elf --with-local-prefix=/builds/idf/crosstool-NG/builds/xtensa-esp32-elf/xtensa-esp32-elf/sysroot --with-sysroot=/builds/idf/crosstool-NG/builds/xtensa-esp32-elf/xtensa-esp32-elf/sysroot --with-newlib --enable-threads=no --disable-shared --with-pkgversion='crosstool-NG crosstool-ng-1.22.0-80-g6c4433a5' --disable-__cxa_atexit --enable-cxx-flags='-fno-rtti -ffunction-sections' --with-gmp=/builds/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools/complibs-host --with-mpfr=/builds/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools/complibs-host --with-mpc=/builds/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools/complibs-host --with-isl=/builds/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools/complibs-host --with-cloog=/builds/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools/complibs-host --with-libelf=/builds/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools/complibs-host --enable-lto --enable-target-optspace --without-long-double-128 --disable-libgomp --disable-libmudflap --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-nls --enable-languages=c,c++ --disable-libstdcxx-verbose --enable-threads=posix --enable-gcov-custom-rtio
+Thread model: posix
+gcc version 5.2.0 (crosstool-NG crosstool-ng-1.22.0-80-g6c4433a5) 
+COMPILER_PATH=d:/project/espres~1/esp-id~1/toolch~1/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/;d:/project/espres~1/esp-id~1/toolch~1/bin/../libexec/gcc/;d:/project/espres~1/esp-id~1/toolch~1/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/bin/
+LIBRARY_PATH=d:/project/espres~1/esp-id~1/toolch~1/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/;d:/project/espres~1/esp-id~1/toolch~1/bin/../lib/gcc/;d:/project/espres~1/esp-id~1/toolch~1/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/lib/;d:/project/espres~1/esp-id~1/toolch~1/bin/../xtensa-esp32-elf/sysroot/lib/
+COLLECT_GCC_OPTIONS='-nostdlib' '-v' '-o' 'cmTC_27387'
+ d:/project/espres~1/esp-id~1/toolch~1/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/collect2.exe -plugin d:/project/espres~1/esp-id~1/toolch~1/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/liblto_plugin-0.dll -plugin-opt=d:/project/espres~1/esp-id~1/toolch~1/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\ADMINI~1\AppData\Local\Temp\ccAO8tPc.res --sysroot=d:\project\espres~1\esp-id~1\toolch~1\bin\../xtensa-esp32-elf/sysroot -o cmTC_27387 -Ld:/project/espres~1/esp-id~1/toolch~1/bin/../lib/gcc/xtensa-esp32-elf/5.2.0 -Ld:/project/espres~1/esp-id~1/toolch~1/bin/../lib/gcc -Ld:/project/espres~1/esp-id~1/toolch~1/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/lib -Ld:/project/espres~1/esp-id~1/toolch~1/bin/../xtensa-esp32-elf/sysroot/lib CMakeFiles/cmTC_27387.dir/CMakeCCompilerABI.c.obj
+d:/project/espres~1/esp-id~1/toolch~1/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00400074
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(xtensa-esp32-elf-ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: C:/Users/Administrator/Desktop/app/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"D:/Project/ESPRES~1/ESP-ID~1/ninja.exe" "cmTC_27387"]
+  ignore line: [[1/2] Building C object CMakeFiles/cmTC_27387.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [[2/2] Linking C executable cmTC_27387]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=D:\Project\ESPRES~1\ESP-ID~1\TOOLCH~1\bin\XT8994~1.EXE]
+  ignore line: [COLLECT_LTO_WRAPPER=d:/project/espres~1/esp-id~1/toolch~1/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/lto-wrapper.exe]
+  ignore line: [Target: xtensa-esp32-elf]
+  ignore line: [Configured with: /builds/idf/crosstool-NG/.build/src/gcc-5.2.0/configure --build=x86_64-build_pc-linux-gnu --host=i686-host_pc-mingw32 --target=xtensa-esp32-elf --prefix=/builds/idf/crosstool-NG/builds/xtensa-esp32-elf --with-local-prefix=/builds/idf/crosstool-NG/builds/xtensa-esp32-elf/xtensa-esp32-elf/sysroot --with-sysroot=/builds/idf/crosstool-NG/builds/xtensa-esp32-elf/xtensa-esp32-elf/sysroot --with-newlib --enable-threads=no --disable-shared --with-pkgversion='crosstool-NG crosstool-ng-1.22.0-80-g6c4433a5' --disable-__cxa_atexit --enable-cxx-flags='-fno-rtti -ffunction-sections' --with-gmp=/builds/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools/complibs-host --with-mpfr=/builds/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools/complibs-host --with-mpc=/builds/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools/complibs-host --with-isl=/builds/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools/complibs-host --with-cloog=/builds/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools/complibs-host --with-libelf=/builds/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools/complibs-host --enable-lto --enable-target-optspace --without-long-double-128 --disable-libgomp --disable-libmudflap --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-nls --enable-languages=c,c++ --disable-libstdcxx-verbose --enable-threads=posix --enable-gcov-custom-rtio]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 5.2.0 (crosstool-NG crosstool-ng-1.22.0-80-g6c4433a5) ]
+  ignore line: [COMPILER_PATH=d:/project/espres~1/esp-id~1/toolch~1/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/]
+  ignore line: [d:/project/espres~1/esp-id~1/toolch~1/bin/../libexec/gcc/]
+  ignore line: [d:/project/espres~1/esp-id~1/toolch~1/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/bin/]
+  ignore line: [LIBRARY_PATH=d:/project/espres~1/esp-id~1/toolch~1/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/]
+  ignore line: [d:/project/espres~1/esp-id~1/toolch~1/bin/../lib/gcc/]
+  ignore line: [d:/project/espres~1/esp-id~1/toolch~1/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/lib/]
+  ignore line: [d:/project/espres~1/esp-id~1/toolch~1/bin/../xtensa-esp32-elf/sysroot/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-nostdlib' '-v' '-o' 'cmTC_27387']
+  link line: [ d:/project/espres~1/esp-id~1/toolch~1/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/collect2.exe -plugin d:/project/espres~1/esp-id~1/toolch~1/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/liblto_plugin-0.dll -plugin-opt=d:/project/espres~1/esp-id~1/toolch~1/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\ADMINI~1\AppData\Local\Temp\ccAO8tPc.res --sysroot=d:\project\espres~1\esp-id~1\toolch~1\bin\../xtensa-esp32-elf/sysroot -o cmTC_27387 -Ld:/project/espres~1/esp-id~1/toolch~1/bin/../lib/gcc/xtensa-esp32-elf/5.2.0 -Ld:/project/espres~1/esp-id~1/toolch~1/bin/../lib/gcc -Ld:/project/espres~1/esp-id~1/toolch~1/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/lib -Ld:/project/espres~1/esp-id~1/toolch~1/bin/../xtensa-esp32-elf/sysroot/lib CMakeFiles/cmTC_27387.dir/CMakeCCompilerABI.c.obj]
+    arg [d:/project/espres~1/esp-id~1/toolch~1/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/collect2.exe] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [d:/project/espres~1/esp-id~1/toolch~1/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/liblto_plugin-0.dll] ==> ignore
+    arg [-plugin-opt=d:/project/espres~1/esp-id~1/toolch~1/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/lto-wrapper.exe] ==> ignore
+    arg [-plugin-opt=-fresolution=C:\Users\ADMINI~1\AppData\Local\Temp\ccAO8tPc.res] ==> ignore
+    arg [--sysroot=d:\project\espres~1\esp-id~1\toolch~1\bin\../xtensa-esp32-elf/sysroot] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_27387] ==> ignore
+    arg [-Ld:/project/espres~1/esp-id~1/toolch~1/bin/../lib/gcc/xtensa-esp32-elf/5.2.0] ==> dir [d:/project/espres~1/esp-id~1/toolch~1/bin/../lib/gcc/xtensa-esp32-elf/5.2.0]
+    arg [-Ld:/project/espres~1/esp-id~1/toolch~1/bin/../lib/gcc] ==> dir [d:/project/espres~1/esp-id~1/toolch~1/bin/../lib/gcc]
+    arg [-Ld:/project/espres~1/esp-id~1/toolch~1/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/lib] ==> dir [d:/project/espres~1/esp-id~1/toolch~1/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/lib]
+    arg [-Ld:/project/espres~1/esp-id~1/toolch~1/bin/../xtensa-esp32-elf/sysroot/lib] ==> dir [d:/project/espres~1/esp-id~1/toolch~1/bin/../xtensa-esp32-elf/sysroot/lib]
+    arg [CMakeFiles/cmTC_27387.dir/CMakeCCompilerABI.c.obj] ==> ignore
+  collapse library dir [d:/project/espres~1/esp-id~1/toolch~1/bin/../lib/gcc/xtensa-esp32-elf/5.2.0] ==> [D:/Project/Espressif/ESP-IDF Tools/toolchain/lib/gcc/xtensa-esp32-elf/5.2.0]
+  collapse library dir [d:/project/espres~1/esp-id~1/toolch~1/bin/../lib/gcc] ==> [D:/Project/Espressif/ESP-IDF Tools/toolchain/lib/gcc]
+  collapse library dir [d:/project/espres~1/esp-id~1/toolch~1/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/lib] ==> [D:/Project/Espressif/ESP-IDF Tools/toolchain/xtensa-esp32-elf/lib]
+  collapse library dir [d:/project/espres~1/esp-id~1/toolch~1/bin/../xtensa-esp32-elf/sysroot/lib] ==> [D:/Project/Espressif/ESP-IDF Tools/toolchain/xtensa-esp32-elf/sysroot/lib]
+  implicit libs: []
+  implicit dirs: [D:/Project/Espressif/ESP-IDF Tools/toolchain/lib/gcc/xtensa-esp32-elf/5.2.0;D:/Project/Espressif/ESP-IDF Tools/toolchain/lib/gcc;D:/Project/Espressif/ESP-IDF Tools/toolchain/xtensa-esp32-elf/lib;D:/Project/Espressif/ESP-IDF Tools/toolchain/xtensa-esp32-elf/sysroot/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: C:/Users/Administrator/Desktop/app/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"D:/Project/ESPRES~1/ESP-ID~1/ninja.exe" "cmTC_d6406"
+[1/2] Building C object CMakeFiles/cmTC_d6406.dir/feature_tests.c.obj
+[2/2] Linking C executable cmTC_d6406
+d:/project/espres~1/esp-id~1/toolch~1/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00400074
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: C:/Users/Administrator/Desktop/app/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"D:/Project/ESPRES~1/ESP-ID~1/ninja.exe" "cmTC_fb54a"
+[1/2] Building C object CMakeFiles/cmTC_fb54a.dir/feature_tests.c.obj
+[2/2] Linking C executable cmTC_fb54a
+d:/project/espres~1/esp-id~1/toolch~1/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00400074
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: C:/Users/Administrator/Desktop/app/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"D:/Project/ESPRES~1/ESP-ID~1/ninja.exe" "cmTC_4d5f4"
+[1/2] Building C object CMakeFiles/cmTC_4d5f4.dir/feature_tests.c.obj
+[2/2] Linking C executable cmTC_4d5f4
+d:/project/espres~1/esp-id~1/toolch~1/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00400074
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: C:/Users/Administrator/Desktop/app/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"D:/Project/ESPRES~1/ESP-ID~1/ninja.exe" "cmTC_a754d"
+[1/2] Building CXX object CMakeFiles/cmTC_a754d.dir/testCXXCompiler.cxx.obj
+[2/2] Linking CXX executable cmTC_a754d
+d:/project/espres~1/esp-id~1/toolch~1/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00400054
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: C:/Users/Administrator/Desktop/app/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"D:/Project/ESPRES~1/ESP-ID~1/ninja.exe" "cmTC_c6a6f"
+[1/2] Building CXX object CMakeFiles/cmTC_c6a6f.dir/CMakeCXXCompilerABI.cpp.obj
+[2/2] Linking CXX executable cmTC_c6a6f
+Using built-in specs.
+COLLECT_GCC=D:\Project\ESPRES~1\ESP-ID~1\TOOLCH~1\bin\XT1FE9~1.EXE
+COLLECT_LTO_WRAPPER=d:/project/espres~1/esp-id~1/toolch~1/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/lto-wrapper.exe
+Target: xtensa-esp32-elf
+Configured with: /builds/idf/crosstool-NG/.build/src/gcc-5.2.0/configure --build=x86_64-build_pc-linux-gnu --host=i686-host_pc-mingw32 --target=xtensa-esp32-elf --prefix=/builds/idf/crosstool-NG/builds/xtensa-esp32-elf --with-local-prefix=/builds/idf/crosstool-NG/builds/xtensa-esp32-elf/xtensa-esp32-elf/sysroot --with-sysroot=/builds/idf/crosstool-NG/builds/xtensa-esp32-elf/xtensa-esp32-elf/sysroot --with-newlib --enable-threads=no --disable-shared --with-pkgversion='crosstool-NG crosstool-ng-1.22.0-80-g6c4433a5' --disable-__cxa_atexit --enable-cxx-flags='-fno-rtti -ffunction-sections' --with-gmp=/builds/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools/complibs-host --with-mpfr=/builds/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools/complibs-host --with-mpc=/builds/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools/complibs-host --with-isl=/builds/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools/complibs-host --with-cloog=/builds/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools/complibs-host --with-libelf=/builds/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools/complibs-host --enable-lto --enable-target-optspace --without-long-double-128 --disable-libgomp --disable-libmudflap --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-nls --enable-languages=c,c++ --disable-libstdcxx-verbose --enable-threads=posix --enable-gcov-custom-rtio
+Thread model: posix
+gcc version 5.2.0 (crosstool-NG crosstool-ng-1.22.0-80-g6c4433a5) 
+COMPILER_PATH=d:/project/espres~1/esp-id~1/toolch~1/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/;d:/project/espres~1/esp-id~1/toolch~1/bin/../libexec/gcc/;d:/project/espres~1/esp-id~1/toolch~1/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/bin/
+LIBRARY_PATH=d:/project/espres~1/esp-id~1/toolch~1/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/;d:/project/espres~1/esp-id~1/toolch~1/bin/../lib/gcc/;d:/project/espres~1/esp-id~1/toolch~1/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/lib/;d:/project/espres~1/esp-id~1/toolch~1/bin/../xtensa-esp32-elf/sysroot/lib/
+COLLECT_GCC_OPTIONS='-nostdlib' '-v' '-o' 'cmTC_c6a6f'
+ d:/project/espres~1/esp-id~1/toolch~1/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/collect2.exe -plugin d:/project/espres~1/esp-id~1/toolch~1/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/liblto_plugin-0.dll -plugin-opt=d:/project/espres~1/esp-id~1/toolch~1/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\ADMINI~1\AppData\Local\Temp\cctjhP4C.res --sysroot=d:\project\espres~1\esp-id~1\toolch~1\bin\../xtensa-esp32-elf/sysroot -o cmTC_c6a6f -Ld:/project/espres~1/esp-id~1/toolch~1/bin/../lib/gcc/xtensa-esp32-elf/5.2.0 -Ld:/project/espres~1/esp-id~1/toolch~1/bin/../lib/gcc -Ld:/project/espres~1/esp-id~1/toolch~1/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/lib -Ld:/project/espres~1/esp-id~1/toolch~1/bin/../xtensa-esp32-elf/sysroot/lib CMakeFiles/cmTC_c6a6f.dir/CMakeCXXCompilerABI.cpp.obj
+d:/project/espres~1/esp-id~1/toolch~1/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00400074
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(xtensa-esp32-elf-ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: C:/Users/Administrator/Desktop/app/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"D:/Project/ESPRES~1/ESP-ID~1/ninja.exe" "cmTC_c6a6f"]
+  ignore line: [[1/2] Building CXX object CMakeFiles/cmTC_c6a6f.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [[2/2] Linking CXX executable cmTC_c6a6f]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=D:\Project\ESPRES~1\ESP-ID~1\TOOLCH~1\bin\XT1FE9~1.EXE]
+  ignore line: [COLLECT_LTO_WRAPPER=d:/project/espres~1/esp-id~1/toolch~1/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/lto-wrapper.exe]
+  ignore line: [Target: xtensa-esp32-elf]
+  ignore line: [Configured with: /builds/idf/crosstool-NG/.build/src/gcc-5.2.0/configure --build=x86_64-build_pc-linux-gnu --host=i686-host_pc-mingw32 --target=xtensa-esp32-elf --prefix=/builds/idf/crosstool-NG/builds/xtensa-esp32-elf --with-local-prefix=/builds/idf/crosstool-NG/builds/xtensa-esp32-elf/xtensa-esp32-elf/sysroot --with-sysroot=/builds/idf/crosstool-NG/builds/xtensa-esp32-elf/xtensa-esp32-elf/sysroot --with-newlib --enable-threads=no --disable-shared --with-pkgversion='crosstool-NG crosstool-ng-1.22.0-80-g6c4433a5' --disable-__cxa_atexit --enable-cxx-flags='-fno-rtti -ffunction-sections' --with-gmp=/builds/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools/complibs-host --with-mpfr=/builds/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools/complibs-host --with-mpc=/builds/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools/complibs-host --with-isl=/builds/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools/complibs-host --with-cloog=/builds/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools/complibs-host --with-libelf=/builds/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools/complibs-host --enable-lto --enable-target-optspace --without-long-double-128 --disable-libgomp --disable-libmudflap --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-nls --enable-languages=c,c++ --disable-libstdcxx-verbose --enable-threads=posix --enable-gcov-custom-rtio]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 5.2.0 (crosstool-NG crosstool-ng-1.22.0-80-g6c4433a5) ]
+  ignore line: [COMPILER_PATH=d:/project/espres~1/esp-id~1/toolch~1/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/]
+  ignore line: [d:/project/espres~1/esp-id~1/toolch~1/bin/../libexec/gcc/]
+  ignore line: [d:/project/espres~1/esp-id~1/toolch~1/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/bin/]
+  ignore line: [LIBRARY_PATH=d:/project/espres~1/esp-id~1/toolch~1/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/]
+  ignore line: [d:/project/espres~1/esp-id~1/toolch~1/bin/../lib/gcc/]
+  ignore line: [d:/project/espres~1/esp-id~1/toolch~1/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/lib/]
+  ignore line: [d:/project/espres~1/esp-id~1/toolch~1/bin/../xtensa-esp32-elf/sysroot/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-nostdlib' '-v' '-o' 'cmTC_c6a6f']
+  link line: [ d:/project/espres~1/esp-id~1/toolch~1/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/collect2.exe -plugin d:/project/espres~1/esp-id~1/toolch~1/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/liblto_plugin-0.dll -plugin-opt=d:/project/espres~1/esp-id~1/toolch~1/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\ADMINI~1\AppData\Local\Temp\cctjhP4C.res --sysroot=d:\project\espres~1\esp-id~1\toolch~1\bin\../xtensa-esp32-elf/sysroot -o cmTC_c6a6f -Ld:/project/espres~1/esp-id~1/toolch~1/bin/../lib/gcc/xtensa-esp32-elf/5.2.0 -Ld:/project/espres~1/esp-id~1/toolch~1/bin/../lib/gcc -Ld:/project/espres~1/esp-id~1/toolch~1/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/lib -Ld:/project/espres~1/esp-id~1/toolch~1/bin/../xtensa-esp32-elf/sysroot/lib CMakeFiles/cmTC_c6a6f.dir/CMakeCXXCompilerABI.cpp.obj]
+    arg [d:/project/espres~1/esp-id~1/toolch~1/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/collect2.exe] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [d:/project/espres~1/esp-id~1/toolch~1/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/liblto_plugin-0.dll] ==> ignore
+    arg [-plugin-opt=d:/project/espres~1/esp-id~1/toolch~1/bin/../libexec/gcc/xtensa-esp32-elf/5.2.0/lto-wrapper.exe] ==> ignore
+    arg [-plugin-opt=-fresolution=C:\Users\ADMINI~1\AppData\Local\Temp\cctjhP4C.res] ==> ignore
+    arg [--sysroot=d:\project\espres~1\esp-id~1\toolch~1\bin\../xtensa-esp32-elf/sysroot] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_c6a6f] ==> ignore
+    arg [-Ld:/project/espres~1/esp-id~1/toolch~1/bin/../lib/gcc/xtensa-esp32-elf/5.2.0] ==> dir [d:/project/espres~1/esp-id~1/toolch~1/bin/../lib/gcc/xtensa-esp32-elf/5.2.0]
+    arg [-Ld:/project/espres~1/esp-id~1/toolch~1/bin/../lib/gcc] ==> dir [d:/project/espres~1/esp-id~1/toolch~1/bin/../lib/gcc]
+    arg [-Ld:/project/espres~1/esp-id~1/toolch~1/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/lib] ==> dir [d:/project/espres~1/esp-id~1/toolch~1/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/lib]
+    arg [-Ld:/project/espres~1/esp-id~1/toolch~1/bin/../xtensa-esp32-elf/sysroot/lib] ==> dir [d:/project/espres~1/esp-id~1/toolch~1/bin/../xtensa-esp32-elf/sysroot/lib]
+    arg [CMakeFiles/cmTC_c6a6f.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
+  collapse library dir [d:/project/espres~1/esp-id~1/toolch~1/bin/../lib/gcc/xtensa-esp32-elf/5.2.0] ==> [D:/Project/Espressif/ESP-IDF Tools/toolchain/lib/gcc/xtensa-esp32-elf/5.2.0]
+  collapse library dir [d:/project/espres~1/esp-id~1/toolch~1/bin/../lib/gcc] ==> [D:/Project/Espressif/ESP-IDF Tools/toolchain/lib/gcc]
+  collapse library dir [d:/project/espres~1/esp-id~1/toolch~1/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/lib] ==> [D:/Project/Espressif/ESP-IDF Tools/toolchain/xtensa-esp32-elf/lib]
+  collapse library dir [d:/project/espres~1/esp-id~1/toolch~1/bin/../xtensa-esp32-elf/sysroot/lib] ==> [D:/Project/Espressif/ESP-IDF Tools/toolchain/xtensa-esp32-elf/sysroot/lib]
+  implicit libs: []
+  implicit dirs: [D:/Project/Espressif/ESP-IDF Tools/toolchain/lib/gcc/xtensa-esp32-elf/5.2.0;D:/Project/Espressif/ESP-IDF Tools/toolchain/lib/gcc;D:/Project/Espressif/ESP-IDF Tools/toolchain/xtensa-esp32-elf/lib;D:/Project/Espressif/ESP-IDF Tools/toolchain/xtensa-esp32-elf/sysroot/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++1z] compiler features compiled with the following output:
+Change Dir: C:/Users/Administrator/Desktop/app/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"D:/Project/ESPRES~1/ESP-ID~1/ninja.exe" "cmTC_e49d4"
+[1/2] Building CXX object CMakeFiles/cmTC_e49d4.dir/feature_tests.cxx.obj
+[2/2] Linking CXX executable cmTC_e49d4
+d:/project/espres~1/esp-id~1/toolch~1/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00400074
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: C:/Users/Administrator/Desktop/app/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"D:/Project/ESPRES~1/ESP-ID~1/ninja.exe" "cmTC_2d337"
+[1/2] Building CXX object CMakeFiles/cmTC_2d337.dir/feature_tests.cxx.obj
+[2/2] Linking CXX executable cmTC_2d337
+d:/project/espres~1/esp-id~1/toolch~1/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00400074
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: C:/Users/Administrator/Desktop/app/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"D:/Project/ESPRES~1/ESP-ID~1/ninja.exe" "cmTC_2b63a"
+[1/2] Building CXX object CMakeFiles/cmTC_2b63a.dir/feature_tests.cxx.obj
+[2/2] Linking CXX executable cmTC_2b63a
+d:/project/espres~1/esp-id~1/toolch~1/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00400074
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: C:/Users/Administrator/Desktop/app/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"D:/Project/ESPRES~1/ESP-ID~1/ninja.exe" "cmTC_5064c"
+[1/2] Building CXX object CMakeFiles/cmTC_5064c.dir/feature_tests.cxx.obj
+[2/2] Linking CXX executable cmTC_5064c
+d:/project/espres~1/esp-id~1/toolch~1/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00400074
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates

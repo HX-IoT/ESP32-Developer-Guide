@@ -1,6 +1,7 @@
 ## 源码备注
 
 - hx-key：按键识别
+- hx-lcd1602-lcd2004：I2C-液晶显示器1602和2004
 - hx-led：驱动LED灯
 - hx-oled：I2C-OLED显示
 - hx-pwm：PWM全彩LED灯显示

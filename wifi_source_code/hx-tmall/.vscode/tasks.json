@@ -1,0 +1,107 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "options": {
+        "cwd": "${workspaceRoot}",
+    },
+    "tasks": [
+        {
+            "label": "build app",
+            "command": "idf.py",
+            "type": "shell",
+            "args": [
+                "build"
+            ],
+            "presentation": {
+                "reveal": "always",
+                "echo": true
+            },
+            "problemMatcher": {
+                "owner": "cpp",
+                "fileLocation": [                    
+                    "absolute"                                        
+                ],
+                "pattern": {
+                    "regexp": "^(.*):(\\d+):(\\d+):\\s+(warning|error):\\s+(.*)$",
+                    "file": 1,
+                    "line": 2,
+                    "column": 3,
+                    "severity": 4,
+                    "message": 5
+                }
+            }
+        },
+        {
+            "label": "clean app",
+            "command": "idf.py",
+            "type": "shell",
+            "args": [
+                "clean"
+            ],
+            "presentation": {
+                "reveal": "always",
+            },
+        },
+        {
+            "label": "flash app",
+            "command": "idf.py",
+            "type": "shell",
+            "args": [
+                "-p",
+                "COM4",
+                "flash",
+                "monitor"
+            ],
+            "presentation": {
+                "reveal": "always",
+            },
+        },
+        {
+            "label": "app-flash",
+            "command": "idf.py",
+            "type": "shell",
+            "args": [
+                "-p",
+                "COM4",
+                "app-flash",
+                "monitor"
+            ],
+            "presentation": {
+                "reveal": "always",
+            },
+        },
+        {
+            "label": "monitor",
+            "type": "shell",
+            "windows": {
+                "command": "",
+                "args": [
+                    "idf.py",
+                    "-p",
+                    "COM4",
+                    "monitor"
+                ],
+            },
+            "presentation": {
+                "reveal": "always",
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "menuconfig",
+            "type": "shell",
+            "windows": {
+                "command": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell",
+                "args": [
+                    "idf.py",
+                    "menuconfig"
+                ]
+            },
+            "presentation": {
+                "reveal": "always",
+            },
+            "problemMatcher": []
+        }
+    ]
+}
