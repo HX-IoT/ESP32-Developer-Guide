@@ -1,7 +1,8 @@
 ## 源码备注
 
 - hx-https-mbedtls：HTTPS获取天气
-- hx-mqtt-tcp：MQTT交互
+- hx-mqtt-tcp：本地MQTT交互
+- hx-mqtt-wan：外网MQTT测试自点灯
 - hx-ota：ESP32的空中升级（OTA）
 - hx-sc-http：HTTP获取城市温度
 - hx-sc：SmartConfig一键配置
