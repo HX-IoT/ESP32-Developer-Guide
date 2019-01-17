@@ -3,6 +3,7 @@
 - hx-key：按键识别
 - hx-lcd1602-lcd2004：I2C-液晶显示器1602和2004
 - hx-led：驱动LED灯
+- hx-nvs：NVS数据保存
 - hx-oled：I2C-OLED显示
 - hx-pwm：PWM全彩LED灯显示
 - hx-sht30：I2C-读取温湿度
