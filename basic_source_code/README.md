@@ -6,8 +6,8 @@
 - hx-oled：I2C-OLED显示
 - hx-pwm：PWM全彩LED灯显示
 - hx-sht30：I2C-读取温湿度
-- hx-uart：两个UART实验
 - hx-tim：定时器实验
+- hx-uart：两个UART实验
 
 ### 总结
 
