@@ -8,6 +8,7 @@
 - hx-pwm：PWM全彩LED灯显示
 - hx-sht30：I2C-读取温湿度
 - hx-tim：定时器实验
+- hx-tm1638：tm1638芯片IO扩展（数码管，LED灯、按键识别）
 - hx-uart：两个UART实验
 
 ### 总结
