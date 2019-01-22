@@ -2,13 +2,13 @@
 
 ### 基础部分（完成）
 
-- #### [教程](https://github.com/HX-IoT/ESP32-Developer-Guide/tree/master/%E7%BA%A2%E6%97%ADESP32%E5%BC%80%E5%8F%91%E6%8C%87%E5%8D%97-PDF) 
+- #### [教程](https://github.com/HX-IoT/ESP32-Developer-Guide/tree/master/%E6%95%99%E7%A8%8B%EF%BC%9AESP32%E5%BC%80%E5%8F%91%E6%8C%87%E5%8D%97%EF%BC%88%E5%BC%80%E6%BA%90%E4%B8%80%E5%B0%8F%E6%AD%A5%EF%BC%89) 
 
 - #### [源码](https://github.com/HX-IoT/ESP32-Developer-Guide/tree/master/basic_source_code)
 
 ### WiFi部分（完成）
 
-- #### [教程](https://github.com/HX-IoT/ESP32-Developer-Guide/tree/master/%E7%BA%A2%E6%97%ADESP32%E5%BC%80%E5%8F%91%E6%8C%87%E5%8D%97-PDF) 
+- #### [教程](https://github.com/HX-IoT/ESP32-Developer-Guide/tree/master/%E6%95%99%E7%A8%8B%EF%BC%9AESP32%E5%BC%80%E5%8F%91%E6%8C%87%E5%8D%97%EF%BC%88%E5%BC%80%E6%BA%90%E4%B8%80%E5%B0%8F%E6%AD%A5%EF%BC%89) 
 
 - #### [源码](https://github.com/HX-IoT/ESP32-Developer-Guide/tree/master/wifi_source_code)
 
