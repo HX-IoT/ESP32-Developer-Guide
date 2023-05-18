@@ -18,7 +18,8 @@
 
 ### 总结
 
-- ESP32技术交流QQ群：824870185
+- 公众号
+- ![373ce767ab18107c1b5ffeba538d83c](https://github.com/HX-IoT/ESP32-Developer-Guide/assets/46419681/5d0a70e0-aa8b-4c4b-9516-a00d1e03aef6)
 
 - 作者：开源一小步
 
